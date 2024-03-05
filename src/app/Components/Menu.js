@@ -19,6 +19,10 @@ export default function Menu() {
           <Link href="/registro">
             <li>Registrar</li>
           </Link>
+          <Link href="/localizacao">
+            dfj
+          </Link>
+          
         </ul>
       </nav>
     </header>
