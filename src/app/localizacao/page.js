@@ -3,8 +3,6 @@ export default function Localiza(){
 return (
 <header>
 <Map/>
-
-
 </header>
 
 )

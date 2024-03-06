@@ -10,7 +10,8 @@ export default function Footer(){
             height={100}
             src={"https://www.logo.wine/a/logo/Moodle/Moodle-Logo.wine.svg"}/>
             </Link>
-        <h1>Footer legal</h1>
+            <p>Feito por Gabriel Gimenes</p>
         </footer>
+        
     );
     }

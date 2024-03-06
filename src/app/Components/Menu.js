@@ -8,19 +8,17 @@ export default function Menu() {
       <Imagem width={100}
       height={100}
       src={"https://www.ifms.edu.br/marcaifms.png"}/>
-    
-
-      <h1>Menu</h1>
+      
       <nav>
         <ul>
           <Link href="/">
-            <li>Home</li>
+            <li className={styles.link}>Home</li>
           </Link>
           <Link href="/registro">
-            <li>Registrar</li>
+            <li className={styles.link}>Registrar</li>
           </Link>
-          <Link href="/localizacao">
-            dfj
+          <Link href="/localizacao" >
+           <li className={styles.link}>Localização</li>
           </Link>
           
         </ul>
