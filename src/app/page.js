@@ -1,6 +1,6 @@
 
 export default async function Home() {
-const respota = await fetch("http-://localhost:3000/api",{next:{ revalidate:1}});
+const respota = await fetch("http://localhost:3000/api",{next:{ revalidate:1}});
 const campus = await respota.json();
 
   return (
