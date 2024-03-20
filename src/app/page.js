@@ -1,15 +1,15 @@
 
 export default async function Home() {
-const respota = await fetch("http://localhost:3000/api",{next:{ revalidate:1}});
+const respota = await fetch("https://back-end-ifms-blond.vercel.app/campi",{next:{ revalidate:1}});
 const campus = await respota.json();
 
   return (
     <main>
       <h1>Home</h1>
       {
-      campus.map((campi)=>
+      campis.map((campus)=>
        <div>
-        <p>{campi.nome_campi}</p>
+        <p>{campus.nome_campus}</p>
        </div>
       )
       }
